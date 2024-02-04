@@ -129,8 +129,8 @@ watch(filters, async () => {
 </script>
 
 <template>
+  <h2 class="text-3xl font-bold">Все кроссовки</h2>
   <div class="flex justify-between mb-7">
-    <h2 class="text-3xl font-bold">Все кроссовки</h2>
 
     <div class="flex gap-6">
       <select @change="onChangeSortBy"
